@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1", "Project1\Project1.vcxproj", "{D1CEE758-AA55-4944-A41C-E596EE97AA9F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_lesson", "Project1\Project1.vcxproj", "{D1CEE758-AA55-4944-A41C-E596EE97AA9F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_data_types", "02_data_types\02_data_types.vcxproj", "{E0BD155F-C3BC-4519-904F-F12F6A459AE2}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_operators", "02_operators\02_operators.vcxproj", "{B17E82CB-38A0-426E-9FA6-24AA3B8FF2C2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_practice", "03_practice\03_practice.vcxproj", "{890F894A-764C-49DF-B2B1-E81A13CFE430}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_EnumCycles", "04_EnumCycles\04_EnumCycles.vcxproj", "{A25C9203-65BB-4E5E-A4FC-442CF91B5F1E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_practice", "4_practice\4_practice.vcxproj", "{F786DFC3-46CE-48A0-A300-2C9A90321A99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,22 @@ Global
 		{890F894A-764C-49DF-B2B1-E81A13CFE430}.Release|x64.Build.0 = Release|x64
 		{890F894A-764C-49DF-B2B1-E81A13CFE430}.Release|x86.ActiveCfg = Release|Win32
 		{890F894A-764C-49DF-B2B1-E81A13CFE430}.Release|x86.Build.0 = Release|Win32
+		{A25C9203-65BB-4E5E-A4FC-442CF91B5F1E}.Debug|x64.ActiveCfg = Debug|x64
+		{A25C9203-65BB-4E5E-A4FC-442CF91B5F1E}.Debug|x64.Build.0 = Debug|x64
+		{A25C9203-65BB-4E5E-A4FC-442CF91B5F1E}.Debug|x86.ActiveCfg = Debug|Win32
+		{A25C9203-65BB-4E5E-A4FC-442CF91B5F1E}.Debug|x86.Build.0 = Debug|Win32
+		{A25C9203-65BB-4E5E-A4FC-442CF91B5F1E}.Release|x64.ActiveCfg = Release|x64
+		{A25C9203-65BB-4E5E-A4FC-442CF91B5F1E}.Release|x64.Build.0 = Release|x64
+		{A25C9203-65BB-4E5E-A4FC-442CF91B5F1E}.Release|x86.ActiveCfg = Release|Win32
+		{A25C9203-65BB-4E5E-A4FC-442CF91B5F1E}.Release|x86.Build.0 = Release|Win32
+		{F786DFC3-46CE-48A0-A300-2C9A90321A99}.Debug|x64.ActiveCfg = Debug|x64
+		{F786DFC3-46CE-48A0-A300-2C9A90321A99}.Debug|x64.Build.0 = Debug|x64
+		{F786DFC3-46CE-48A0-A300-2C9A90321A99}.Debug|x86.ActiveCfg = Debug|Win32
+		{F786DFC3-46CE-48A0-A300-2C9A90321A99}.Debug|x86.Build.0 = Debug|Win32
+		{F786DFC3-46CE-48A0-A300-2C9A90321A99}.Release|x64.ActiveCfg = Release|x64
+		{F786DFC3-46CE-48A0-A300-2C9A90321A99}.Release|x64.Build.0 = Release|x64
+		{F786DFC3-46CE-48A0-A300-2C9A90321A99}.Release|x86.ActiveCfg = Release|Win32
+		{F786DFC3-46CE-48A0-A300-2C9A90321A99}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
