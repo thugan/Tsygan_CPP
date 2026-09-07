@@ -260,5 +260,5 @@ int main()
 			}
 		}
 	}
-		cout << cnt<<" --- the number of integers divisible by 12 between a and b, inclusive!";
+		cout << cnt<<" --- the number of integers divisible by 12 between a and b, inclusive!!";
 }
