@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    /*const int size1 = 10;
+    const int size1 = 10;
     int arr1[size1] = {};
     int sum = 1;
     for (int i = 0; i < size1; i++)
@@ -84,7 +84,7 @@ int main()
     {
         cout << arr5[i] << " ";
     }
-    cout << endl;*/
+    cout << endl;
     const int year = 12;
     int pay[year] = {};
     int low;
@@ -94,16 +94,14 @@ int main()
         cout << "Enter " << i + 1 << " person salary : ";
         cin >> pay[i];
     }
-    cout << "Lowest number in range : ";
-    cin >> low;
-    cout << "Hightest number in range : ";
-    cin >> hight;
+    cout << "Lowest month in range : ";
+    cin >> low;//6
+    cout << "Hightest month in range : ";
+    cin >> hight;//8
     cout << "Numbers in range ( " << low << " to " << hight << " ) : " << endl;
-    for (int i = 0; i < year; i++)
+    for (int i = low-1; i < hight; i++)
     {
-        if (pay[i] >= low && pay[i] <= hight) {
-            cout << pay[i] << " ";
-        }
+        cout << pay[i] << " ";
     }
 
 }
