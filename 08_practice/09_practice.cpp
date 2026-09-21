@@ -139,7 +139,7 @@ void ShowMatrix(int arr[][10], int rows, int cols)
 	}
 }
 template<typename T_arr>
-T_arr Arr_Mean(T_arr arr, int size)
+int Arr_Mean(T_arr arr, int size)
 {
 	int counter = 1;
 	int sum = 0;
